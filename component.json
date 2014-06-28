@@ -1,0 +1,29 @@
+{
+  "name": "sounds-r-us",
+  "description": "Play sounds in HTML, Flash or PhoneGap Android",
+  "version": "0.0.1",
+  "main": "index.js",
+  "paths":[
+    "../"
+  ],
+  "local":[
+    
+  ],
+  "scripts": [
+    "index.js"    
+  ],
+  "styles": [],
+  "dependencies": {
+    "component/emitter": "*",
+    "Wizcorp/SoundManager2":"V2.97a.20131201",
+    "jaysalvat/buzz":"*"
+  },
+  "files": [
+    "lib/swfs/soundmanager2_debug.swf",
+    "lib/swfs/soundmanager2_flash9_debug.swf",
+    "lib/swfs/soundmanager2_flash9.swf",
+    "lib/swfs/soundmanager2.swf",
+    "lib/sounds/click.mp3",
+    "lib/sounds/click.ogg"
+  ]
+}
